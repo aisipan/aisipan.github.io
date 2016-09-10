@@ -1,5 +1,5 @@
 *{
-	margin: 0px;
+	margin: 0;
 }
 @font-face{
 	font-family: customfont;
@@ -13,18 +13,19 @@ body{
 header{
 	background-color: #34495e;
 	color: #FFF;
-	padding: 8em;
+	padding: 100px;
 	text-align: center;
 }
 .skills{
 	background-color: #ffffff;
-	padding: 11em;
+	padding: 50px;
 	text-align: center;
 }
 header>div.sosmed{
 	float: right;
+	padding-top: 20px;
 	margin-top: -100px;
-	margin-right: -75px;
+	margin-right: -60px;
 }
 header>div.sosmed>ul>li{
 	list-style: none;
