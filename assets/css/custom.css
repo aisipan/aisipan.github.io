@@ -1,0 +1,37 @@
+*{
+	margin: 0px;
+}
+@font-face{
+	font-family: customfont;
+	src: url(../kindergarten/kindergarten.woff);
+	/*src: url(../font-awesome/fonts/fontawesome-webfont.woff);*/
+
+}
+body{
+	font-family: customfont;
+}
+header{
+	background-color: #34495e;
+	color: #FFF;
+	padding: 8em;
+	text-align: center;
+}
+.skills{
+	background-color: #ffffff;
+	padding: 11em;
+	text-align: center;
+}
+header>div.sosmed{
+	float: right;
+	margin-top: -100px;
+	margin-right: -75px;
+}
+header>div.sosmed>ul>li{
+	list-style: none;
+	display: inline-block;
+}
+.fa{
+	display: inline-block;
+	color: white;
+	padding: 5px;
+}

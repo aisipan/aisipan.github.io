@@ -1,0 +1,11 @@
+@font-face {
+	font-family: 'kindergarten';
+	src: url('./kindergarten.eot');
+	src: local('kindergarten'), url('./kindergarten.woff') format('woff'), url('./kindergarten.ttf') format('truetype');
+}
+/* use this class to attach this font to any element i.e. <p class="fontsforweb_fontid_66613">Text with this font applied</p> */
+.fontsforweb_fontid_66613 {
+	font-family: 'kindergarten' !important;
+}
+
+/* Font downloaded from FontsForWeb.com */
