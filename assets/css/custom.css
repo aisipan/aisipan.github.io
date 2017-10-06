@@ -7,19 +7,17 @@
 	/*src: url(../font-awesome/fonts/fontawesome-webfont.woff);*/
 
 }
-body{
-	font-family: customfont;
-}
 header{
+	font-family: customfont;
 	background-color: #34495e;
 	color: #FFF;
 	padding: 100px;
 	text-align: center;
 }
 .skills{
-	background-color: #ffffff;
+	/*background-color: #ffffff;*/
 	padding: 50px;
-	text-align: center;
+	/*text-align: center;*/
 }
 header>div.sosmed{
 	float: right;
@@ -31,8 +29,30 @@ header>div.sosmed>ul>li{
 	list-style: none;
 	display: inline-block;
 }
+header>div.sosmed>ul>li>a>i.fa{
+	color: white;
+}
 .fa{
 	display: inline-block;
-	color: white;
 	padding: 5px;
+}
+.row {
+	padding-bottom: 10px;
+}
+.justify {
+	text-align: justify;
+}
+.center {
+	text-align: center;
+}
+.img-circle {
+	border-radius: 50%;
+	height: 75px;
+	width: 75px;
+}
+.intro {
+	/*padding-top: 10px;*/
+}
+.learn {
+	margin-top: 50px;
 }
